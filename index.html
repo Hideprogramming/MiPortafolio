@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title> Inicio - Hide  Programing</title>
+<!-- CUSTOM CSS-->
+<link rel="stylesheet" href="./inicio.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- ANIMACION -->
+
+</head>
+<body onclick="playAudio()">
+<!-- SOBRE FONDO -->
+<section class="bg"></section>
+<div id="loading-text">0 %</div>
+</div>
+<!-- FIN DE SOBRE FONDO -->
+
+<!-- NAV MENU -->
+<div class="menu" id="menu" data-aos="fade-up"></div>
+<!-- FIN NAV MENU -->
+
+<audio id="audio" autoplay loop>
+    <source src="./imagenes/Demon.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+
+<!-- SCRIPTS -->
+<script  src="./script2.js"></script>
+
+<!-- ANIMACION-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<!-- FIN DE ANIMACION-->
+
+
+</html>

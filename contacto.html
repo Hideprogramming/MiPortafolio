@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="main.css">
+    <!-- GOOGLE FONTs -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!--ANIMACIO-->
+</head>
+<body>
+    
+    <div class="content">
+        <nav class="nav-main" data-aos="fade-up">
+            <ul class="nav-menu show">
+                <li>
+                    <a href="./home.html">Home</a>
+                </li>
+        
+                <li>
+                    <a href="./info.html">Information</a>
+                </li>
+        
+                <li>
+                    <a href="./proyectos.html">Proyects</a>
+                </li>
+        
+                <li>
+                    <a href="./index.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h1 class="logo">Contact <span>Hide</span></h1>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Contact Hide</h3>
+                <form id="contact" class="contact" action="">
+                    <p>
+                        <label class="validation-estado" id="icon"> Name  
+                            <span class="label-oculto"  id="label-nombre"> 
+                                <i class="icon fas fa-times-circle"></i> 
+                            </span>
+                        </label>
+                        <input class="inputs" id="nombre" type="text" name="name">
+                    </p>
+
+                    <p>
+                        <label class="validation-estado" id="icon"> Last name 
+                            <span class="label-oculto"  id="label-last"> 
+                                <i class="icon fas fa-times-circle"></i> 
+                            </span>
+                        </label>
+                        <input class="inputs" id="last" type="text" name="lastname">
+                        
+                    </p>
+
+                    <p>
+                        <label class="validation-estado" id="icon"> Email Adress 
+                            <span class="label-oculto"  id="label-email"> 
+                                <i class="icon fas fa-times-circle"></i> 
+                            </span>
+                        </label>
+                        <input class="inputs" id="email" type="email" name="email">
+                        
+                    </p>
+                    
+                    <p>
+                        <label class="validation-estado" id="icon"> Phone Number 
+                            <span class="label-oculto"  id="label-phone"> 
+                                <i class="icon fas fa-times-circle"></i> 
+                            </span>
+                        </label>
+                        <input class="inputs" id="phone" type="tel" name="phone">
+                    </p>
+                    
+                    <p class="block">
+                        <label class="validation-estado" id="icon"> Message 
+                            <span class="label-oculto"  id="label-message"> 
+                                <i class="icon fas fa-times-circle"></i> 
+                            </span>
+                        </label> 
+                        <textarea class="inputs" id="message" name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button id="send" type="submit">
+                            <h2> Send </h2>
+                            <p class="mensaje-exito" id="mensaje-exito"><i class="fa-light fa-badge-check fa-beat fa-2xs" style="color: #2fdd22;"></i>Mensaje Enviado Exitosamente!</p>
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>More Info</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Lara, Venezuela </li>
+                    <li><i class="fas fa-phone"></i> (+58) 424 547 9517 </li>
+                    <li><i class="fas fa-envelope-open-text"></i> gwilklert@gmail.com </li>
+                </ul>
+                <p> Contact me to share your idea and so I can make it come true. </p>
+                <div class="social">
+                    <a class="git" id="social" href="https://github.com/Hideprogramming">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a class="ig" id="social" href="https://www.instagram.com/gwilklert/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<!-- ANIMACION-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<!-- FIN DE ANIMACION-->
+
+<!-- SCROLL -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!-- FIN SCROLL-->
+<script src="./script.js"></script>
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</html>
